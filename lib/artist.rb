@@ -9,6 +9,9 @@ class Artist
     @songs = []
   end
 
+  def self.all
+    @@all
+  end
   # Artist #songs keeps track of an artist's songs
   def songs
     @songs
