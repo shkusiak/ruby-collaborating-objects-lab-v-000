@@ -15,6 +15,9 @@ class Artist
   def save
     @@all << self
   end
+  def add_song(song)
+    @songs << song
+  end
   # Artist .find_or_create_by_name finds or creates an artist by name maintaining uniqueness of objects by name property
   # Artist .find_or_create_by_name Creates new instance of Artist if none exist
   # Artist #print_songs lists all of the artist's songs
