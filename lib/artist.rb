@@ -1,6 +1,6 @@
 class Artist
   #Artist #initialize with #name accepts a name for the artist
-  attr_accessor :name#, :songs
+  attr_accessor :name, :songs
   @@all = []
   #Artist #name= sets the artist name
   def initialize(name)
