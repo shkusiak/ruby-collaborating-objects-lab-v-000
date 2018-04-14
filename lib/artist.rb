@@ -13,7 +13,7 @@ class Artist
   end
   # Artist #save adds the artist instance to the @@all class variable
   def save
-    @@all << name
+    @@all << self
   end
   # Artist .find_or_create_by_name finds or creates an artist by name maintaining uniqueness of objects by name property
   # Artist .find_or_create_by_name Creates new instance of Artist if none exist
